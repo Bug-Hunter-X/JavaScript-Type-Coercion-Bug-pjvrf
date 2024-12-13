@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1, "2")); //This will cause a type error if strict mode is enabled because it is trying to add a number and a string. It may work without strict mode and concatenate the values but the behavior may not always be expected. 
